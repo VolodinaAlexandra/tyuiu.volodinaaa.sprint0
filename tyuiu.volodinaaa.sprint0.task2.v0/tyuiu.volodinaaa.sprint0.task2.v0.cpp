@@ -2,10 +2,13 @@
 //
 
 #include <iostream>
+#include "../tyuiu.volodinaaa.sprint0.task2.v0.lib/tyuiu.volodinaaa.sprint0.task2.v0.lib.cpp"
 
 int main()
-{
-    std::cout << "Hello World!\n";
+{   
+    ISprint0Task2V0* service = new Service();
+    std::cout << "VolodinaAA\n";
+    std::cout << "Result 3+6="<< service->Add(3,6);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tyuiu.volodinaaa.sprint0.ta
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tyuiu.volodinaaa.sprint0.task2.v0.test", "tyuiu.volodinaaa.sprint0.task2.v0.test\tyuiu.volodinaaa.sprint0.task2.v0.test.vcxproj", "{A7C22D18-F4DF-42D3-9EA7-9192B5195289}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task2", "Task2", "{E50B938A-142C-4A4D-B090-EEF9BB978D19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -72,6 +74,9 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{ECDE952D-8E2A-4D63-9D03-FE9262F23FC5} = {32B9E337-DADA-4F89-B3ED-DB0029BA548D}
 		{9E7B4E25-91AE-4951-A7A2-A0FEC5DB12F3} = {2C5971F3-7C61-4AD5-A749-D10CDD927E66}
+		{8F5EDF6F-3E63-4D69-9351-FA61DB018275} = {E50B938A-142C-4A4D-B090-EEF9BB978D19}
+		{37EF22A2-6C11-4864-8412-27752AFA5A6B} = {E50B938A-142C-4A4D-B090-EEF9BB978D19}
+		{A7C22D18-F4DF-42D3-9EA7-9192B5195289} = {E50B938A-142C-4A4D-B090-EEF9BB978D19}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BB3FF36E-59EC-40AC-9144-C058DDDEA3E4}
