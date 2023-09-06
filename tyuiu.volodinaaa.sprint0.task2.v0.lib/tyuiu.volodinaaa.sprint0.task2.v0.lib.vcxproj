@@ -163,6 +163,11 @@
     </ClCompile>
     <ClCompile Include="tyuiu.volodinaaa.sprint0.task2.v0.lib.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\tyuiu.volodinaaa.sprint0.task2.v0.test\tyuiu.volodinaaa.sprint0.task2.v0.test.vcxproj">
+      <Project>{a7c22d18-f4df-42d3-9ea7-9192b5195289}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

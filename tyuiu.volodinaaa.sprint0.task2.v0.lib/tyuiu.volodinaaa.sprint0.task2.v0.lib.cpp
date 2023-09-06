@@ -3,7 +3,7 @@
 
 #include "pch.h"
 #include "framework.h"
-#include"../../Tyuiu.Cours.cpp.cpp"
+#include "../../Tyuiu.Cours.cpp/Tyuiu.Cours.cpp.cpp"
 
 // TODO: This is an example of a library function
 class Service :public ISprint0Task2V0
@@ -11,8 +11,7 @@ class Service :public ISprint0Task2V0
 	// Inherited via ISprint0Task2V0
 	virtual int Add(int a, int b) override
 	{
-		return a + b; //решение
+		return a + b;
 	}
 	// Inherited via ISprint0Task2V0
-}
-
+};
