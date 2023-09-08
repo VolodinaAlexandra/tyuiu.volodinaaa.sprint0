@@ -1,0 +1,15 @@
+﻿// tyuiu.volodinaaa.sprint0.task3.v0.lib.cpp : Defines the functions for the static library.
+//
+
+#include "pch.h"
+#include "framework.h"
+#include "../../Tyuiu.Cours.cpp/Tyuiu.Cours.cpp.cpp"
+
+// TODO: This is an example of a library function
+class Service1 :public ISprint0Task3
+{
+	virtual int SummV3(int a, int b, int c) override
+	{
+		return a + b + c;
+	};
+};
